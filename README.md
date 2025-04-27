@@ -73,28 +73,4 @@ Training on other datasets might require modifications to the code. Please read 
 - The expert discriminator's eval loss should go down to ~0.25 and the Wav2Lip eval sync loss should go down to ~0.2 to get good results. 
 When raising an issue on this topic, please let us know that you are aware of all these points.
 We have an HD model trained on a dataset allowing commercial usage. The size of the generated face will be 192 x 288 in our new model.
-Evaluation
-----------
-Please check the `evaluation/` folder for the instructions.
-License and Citation
-----------
-This repository can only be used for personal/research/non-commercial purposes. However, for commercial requests, please contact us directly at rudrabha@synclabs.so or prajwal@synclabs.so. We have a turn-key hosted API with new and improved lip-syncing models here: https://synclabs.so/
-The size of the generated face will be 192 x 288 in our new models. Please cite the following paper if you use this repository:
-```
-@inproceedings{10.1145/3394171.3413532,
-author = {Prajwal, K R and Mukhopadhyay, Rudrabha and Namboodiri, Vinay P. and Jawahar, C.V.},
-title = {A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild},
-year = {2020},
-isbn = {9781450379885},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3394171.3413532},
-doi = {10.1145/3394171.3413532},
-booktitle = {Proceedings of the 28th ACM International Conference on Multimedia},
-pages = {484–492},
-numpages = {9},
-keywords = {lip sync, talking face generation, video generation},
-location = {Seattle, WA, USA},
-series = {MM '20}
-}
-```
+
